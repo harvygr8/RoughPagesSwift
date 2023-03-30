@@ -1,0 +1,6 @@
+framework module Pods_RoughPages_RoughPagesUITests {
+  umbrella header "Pods-RoughPages-RoughPagesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

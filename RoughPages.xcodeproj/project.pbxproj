@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213A2E98435FBD9A78697E59 /* Pods_RoughPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A7381AD341E23D435D0240 /* Pods_RoughPages.framework */; };
+		E6F467256160BC60232DC335 /* Pods_RoughPages_RoughPagesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3264AA64CEC63ECD2B6AA4C /* Pods_RoughPages_RoughPagesUITests.framework */; };
+		F5418A8ECB2870498F1B4AAC /* Pods_RoughPagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739B29C56D46437DC1FE31B6 /* Pods_RoughPagesTests.framework */; };
+		F6E4AF2729C92F9500A592ED /* PagesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF2629C92F9500A592ED /* PagesRowView.swift */; };
+		F6E4AF2B29C92FFA00A592ED /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF2A29C92FFA00A592ED /* PageView.swift */; };
+		F6E4AF2D29C9408B00A592ED /* AddPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF2C29C9408B00A592ED /* AddPageView.swift */; };
+		F6E4AF2F29C941D400A592ED /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF2E29C941D400A592ED /* AddButtonView.swift */; };
+		F6E4AF3129CA003100A592ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E4AF3029CA003100A592ED /* GoogleService-Info.plist */; };
+		F6E4AF3529CA556B00A592ED /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF3429CA556B00A592ED /* Page.swift */; };
+		F6E4AF3829CA56E700A592ED /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4AF3729CA56E700A592ED /* PageViewModel.swift */; };
 		F6E5720C29C92A1200B8B8EB /* RoughPagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5720B29C92A1200B8B8EB /* RoughPagesApp.swift */; };
 		F6E5720E29C92A1200B8B8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5720D29C92A1200B8B8EB /* ContentView.swift */; };
 		F6E5721029C92A1300B8B8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E5720F29C92A1300B8B8EB /* Assets.xcassets */; };
@@ -14,6 +24,7 @@
 		F6E5721D29C92A1300B8B8EB /* RoughPagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5721C29C92A1300B8B8EB /* RoughPagesTests.swift */; };
 		F6E5722729C92A1300B8B8EB /* RoughPagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5722629C92A1300B8B8EB /* RoughPagesUITests.swift */; };
 		F6E5722929C92A1300B8B8EB /* RoughPagesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5722829C92A1300B8B8EB /* RoughPagesUITestsLaunchTests.swift */; };
+		F6F7902F29CD69E000F21C80 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7902E29CD69E000F21C80 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B858910931E7ECD229C13F /* Pods-RoughPages-RoughPagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPages-RoughPagesUITests.debug.xcconfig"; path = "Target Support Files/Pods-RoughPages-RoughPagesUITests/Pods-RoughPages-RoughPagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C48FAA519E1B559B977CD7E /* Pods-RoughPages-RoughPagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPages-RoughPagesUITests.release.xcconfig"; path = "Target Support Files/Pods-RoughPages-RoughPagesUITests/Pods-RoughPages-RoughPagesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48CA60B179046F5B86D1F735 /* Pods-RoughPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPages.release.xcconfig"; path = "Target Support Files/Pods-RoughPages/Pods-RoughPages.release.xcconfig"; sourceTree = "<group>"; };
+		739B29C56D46437DC1FE31B6 /* Pods_RoughPagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoughPagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A7381AD341E23D435D0240 /* Pods_RoughPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoughPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E68D207927C59B58E3307A /* Pods-RoughPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPagesTests.debug.xcconfig"; path = "Target Support Files/Pods-RoughPagesTests/Pods-RoughPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B2ABA85408C3668289D8A5 /* Pods-RoughPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPages.debug.xcconfig"; path = "Target Support Files/Pods-RoughPages/Pods-RoughPages.debug.xcconfig"; sourceTree = "<group>"; };
+		F3264AA64CEC63ECD2B6AA4C /* Pods_RoughPages_RoughPagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoughPages_RoughPagesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E4AF2629C92F9500A592ED /* PagesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesRowView.swift; sourceTree = "<group>"; };
+		F6E4AF2A29C92FFA00A592ED /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		F6E4AF2C29C9408B00A592ED /* AddPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageView.swift; sourceTree = "<group>"; };
+		F6E4AF2E29C941D400A592ED /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		F6E4AF3029CA003100A592ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6E4AF3229CA062A00A592ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F6E4AF3429CA556B00A592ED /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		F6E4AF3729CA56E700A592ED /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
 		F6E5720829C92A1200B8B8EB /* RoughPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoughPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E5720B29C92A1200B8B8EB /* RoughPagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughPagesApp.swift; sourceTree = "<group>"; };
 		F6E5720D29C92A1200B8B8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,8 @@
 		F6E5722229C92A1300B8B8EB /* RoughPagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoughPagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E5722629C92A1300B8B8EB /* RoughPagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughPagesUITests.swift; sourceTree = "<group>"; };
 		F6E5722829C92A1300B8B8EB /* RoughPagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughPagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6F7902E29CD69E000F21C80 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FB00D438A0084F5BE1B4008F /* Pods-RoughPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoughPagesTests.release.xcconfig"; path = "Target Support Files/Pods-RoughPagesTests/Pods-RoughPagesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213A2E98435FBD9A78697E59 /* Pods_RoughPages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5418A8ECB2870498F1B4AAC /* Pods_RoughPagesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +96,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F467256160BC60232DC335 /* Pods_RoughPages_RoughPagesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E6BF70CFE1FF4E4CEE189C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B2ABA85408C3668289D8A5 /* Pods-RoughPages.debug.xcconfig */,
+				48CA60B179046F5B86D1F735 /* Pods-RoughPages.release.xcconfig */,
+				09B858910931E7ECD229C13F /* Pods-RoughPages-RoughPagesUITests.debug.xcconfig */,
+				1C48FAA519E1B559B977CD7E /* Pods-RoughPages-RoughPagesUITests.release.xcconfig */,
+				D9E68D207927C59B58E3307A /* Pods-RoughPagesTests.debug.xcconfig */,
+				FB00D438A0084F5BE1B4008F /* Pods-RoughPagesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6E4AF2329C92F3D00A592ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4AF2A29C92FFA00A592ED /* PageView.swift */,
+				F6E5720D29C92A1200B8B8EB /* ContentView.swift */,
+				F6E4AF2629C92F9500A592ED /* PagesRowView.swift */,
+				F6E4AF2C29C9408B00A592ED /* AddPageView.swift */,
+				F6E4AF2E29C941D400A592ED /* AddButtonView.swift */,
+				F6F7902E29CD69E000F21C80 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6E4AF3329CA54ED00A592ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4AF3429CA556B00A592ED /* Page.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6E4AF3629CA56CC00A592ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4AF3729CA56E700A592ED /* PageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F6E571FF29C92A1100B8B8EB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +152,8 @@
 				F6E5721B29C92A1300B8B8EB /* RoughPagesTests */,
 				F6E5722529C92A1300B8B8EB /* RoughPagesUITests */,
 				F6E5720929C92A1200B8B8EB /* Products */,
+				8E6BF70CFE1FF4E4CEE189C3 /* Pods */,
+				FCBE2C289AFC99AC54DEE687 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +170,13 @@
 		F6E5720A29C92A1200B8B8EB /* RoughPages */ = {
 			isa = PBXGroup;
 			children = (
+				F6E4AF3229CA062A00A592ED /* Info.plist */,
+				F6E4AF2329C92F3D00A592ED /* Views */,
+				F6E4AF3329CA54ED00A592ED /* Models */,
+				F6E4AF3629CA56CC00A592ED /* ViewModel */,
 				F6E5720B29C92A1200B8B8EB /* RoughPagesApp.swift */,
-				F6E5720D29C92A1200B8B8EB /* ContentView.swift */,
 				F6E5720F29C92A1300B8B8EB /* Assets.xcassets */,
+				F6E4AF3029CA003100A592ED /* GoogleService-Info.plist */,
 				F6E5721129C92A1300B8B8EB /* Preview Content */,
 			);
 			path = RoughPages;
@@ -127,6 +207,16 @@
 			path = RoughPagesUITests;
 			sourceTree = "<group>";
 		};
+		FCBE2C289AFC99AC54DEE687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A7381AD341E23D435D0240 /* Pods_RoughPages.framework */,
+				F3264AA64CEC63ECD2B6AA4C /* Pods_RoughPages_RoughPagesUITests.framework */,
+				739B29C56D46437DC1FE31B6 /* Pods_RoughPagesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E5722C29C92A1300B8B8EB /* Build configuration list for PBXNativeTarget "RoughPages" */;
 			buildPhases = (
+				248F026CF0DA21CA541E83D7 /* [CP] Check Pods Manifest.lock */,
 				F6E5720429C92A1100B8B8EB /* Sources */,
 				F6E5720529C92A1100B8B8EB /* Frameworks */,
 				F6E5720629C92A1100B8B8EB /* Resources */,
+				CE0CA481116F3B2B6E769331 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E5722F29C92A1300B8B8EB /* Build configuration list for PBXNativeTarget "RoughPagesTests" */;
 			buildPhases = (
+				E7D11761D8C4916F754408EB /* [CP] Check Pods Manifest.lock */,
 				F6E5721429C92A1300B8B8EB /* Sources */,
 				F6E5721529C92A1300B8B8EB /* Frameworks */,
 				F6E5721629C92A1300B8B8EB /* Resources */,
@@ -169,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E5723229C92A1300B8B8EB /* Build configuration list for PBXNativeTarget "RoughPagesUITests" */;
 			buildPhases = (
+				B1036AEAE704C4D736EC42C3 /* [CP] Check Pods Manifest.lock */,
 				F6E5721E29C92A1300B8B8EB /* Sources */,
 				F6E5721F29C92A1300B8B8EB /* Frameworks */,
 				F6E5722029C92A1300B8B8EB /* Resources */,
+				E2D659ABE4FBB8D7C7E93B8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +328,7 @@
 			files = (
 				F6E5721329C92A1300B8B8EB /* Preview Assets.xcassets in Resources */,
 				F6E5721029C92A1300B8B8EB /* Assets.xcassets in Resources */,
+				F6E4AF3129CA003100A592ED /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +348,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		248F026CF0DA21CA541E83D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoughPages-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1036AEAE704C4D736EC42C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoughPages-RoughPagesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0CA481116F3B2B6E769331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoughPages/Pods-RoughPages-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoughPages/Pods-RoughPages-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoughPages/Pods-RoughPages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D659ABE4FBB8D7C7E93B8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoughPages-RoughPagesUITests/Pods-RoughPages-RoughPagesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoughPages-RoughPagesUITests/Pods-RoughPages-RoughPagesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoughPages-RoughPagesUITests/Pods-RoughPages-RoughPagesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D11761D8C4916F754408EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoughPagesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6E5720429C92A1100B8B8EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F6E5720E29C92A1200B8B8EB /* ContentView.swift in Sources */,
+				F6F7902F29CD69E000F21C80 /* DetailView.swift in Sources */,
+				F6E4AF2B29C92FFA00A592ED /* PageView.swift in Sources */,
 				F6E5720C29C92A1200B8B8EB /* RoughPagesApp.swift in Sources */,
+				F6E4AF2D29C9408B00A592ED /* AddPageView.swift in Sources */,
+				F6E4AF3529CA556B00A592ED /* Page.swift in Sources */,
+				F6E4AF2F29C941D400A592ED /* AddButtonView.swift in Sources */,
+				F6E4AF2729C92F9500A592ED /* PagesRowView.swift in Sources */,
+				F6E4AF3829CA56E700A592ED /* PageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +617,7 @@
 		};
 		F6E5722D29C92A1300B8B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2ABA85408C3668289D8A5 /* Pods-RoughPages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,7 +626,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RoughPages/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RoughPages/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -439,6 +646,7 @@
 		};
 		F6E5722E29C92A1300B8B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CA60B179046F5B86D1F735 /* Pods-RoughPages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +655,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RoughPages/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RoughPages/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -467,6 +675,7 @@
 		};
 		F6E5723029C92A1300B8B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E68D207927C59B58E3307A /* Pods-RoughPagesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +695,7 @@
 		};
 		F6E5723129C92A1300B8B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB00D438A0084F5BE1B4008F /* Pods-RoughPagesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +715,7 @@
 		};
 		F6E5723329C92A1300B8B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B858910931E7ECD229C13F /* Pods-RoughPages-RoughPagesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +733,7 @@
 		};
 		F6E5723429C92A1300B8B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C48FAA519E1B559B977CD7E /* Pods-RoughPages-RoughPagesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
